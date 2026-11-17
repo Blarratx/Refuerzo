@@ -1,0 +1,26 @@
+# Entorno virtual y dependencias
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Base de datos local
+*.db
+*.sqlite3
+
+# Entornos y secretos
+.env
+.env.*
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Alembic (caché)
+alembic/__pycache__/
+alembic/versions/__pycache__/
+app/__pycache__/
